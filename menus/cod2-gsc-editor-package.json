@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle cod2-gsc-editor-package",
+        "command": "cod2-gsc-editor-package:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "cod2-gsc-editor-package",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "cod2-gsc-editor-package:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
